@@ -1,13 +1,16 @@
 fastapi
 uvicorn
 python-multipart
-langchain
+langchain==0.3.25
+langchain-core
+langchain-community
 langchain-groq
 langchain-huggingface
 langchain-chroma
-langchain-community
 langchain-text-splitters
 pypdf
 chromadb
 sentence-transformers
 python-dotenv
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.1.0+cpu
