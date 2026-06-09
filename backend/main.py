@@ -10,7 +10,7 @@ app = FastAPI(title="RAG Chatbot API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:5174", "http://127.0.0.1:5174","https://rag-q-a-chatbot-conversational-aqnhxnjd7-mahalaxmi246s-projects.vercel.app"],  # lock this down in production
+    allow_origins=["http://localhost:5173", "http://localhost:5174", "https://rag-q-a-chatbot-conversational.vercel.app","http://127.0.0.1:5174","https://rag-q-a-chatbot-conversational-aqnhxnjd7-mahalaxmi246s-projects.vercel.app"],  # lock this down in production
     allow_methods=["*"],
     allow_headers=["*"],
 )
